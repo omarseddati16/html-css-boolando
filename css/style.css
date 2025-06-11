@@ -35,6 +35,10 @@
   background-color: rgb(255, 103, 1);
 }
 
+.bg-lightgrey {
+  background-color: lightgrey;
+}
+
 /*Header*/
 
 a {
@@ -73,7 +77,7 @@ a {
 }
 
 .h-400 {
-  height: 600px;
+  height: 578px;
 }
 
 .w-300 {
@@ -86,4 +90,16 @@ a {
 
 .border {
   border: 2px black dotted;
+}
+
+.contain {
+  object-fit: cover
+}
+
+.width {
+  width: 100%;
+}
+
+.gap {
+  gap: 20px;
 }
