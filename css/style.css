@@ -78,6 +78,10 @@ button {
   right: 0;
 }
 
+button:hover {
+  color: red;
+}
+
 .container-immagini {
   max-width: 1200px;
   margin: 0 auto;
@@ -109,6 +113,35 @@ button {
   height: 100%;
 }
 
-button:hover {
-  color: red;
+.cuore {
+  padding: 10px;
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.q-piccolo {
+  padding: 12px;
+  background-color: white;
+}
+
+.sconto {
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 45px;
+  background-color: red;
+  color: white;
+}
+
+.verde {
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 45px;
+  background-color: green;
+  color: white;
 }
