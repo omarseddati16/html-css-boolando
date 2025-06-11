@@ -109,19 +109,10 @@ i:hover {
   color: red;
 }
 
-.h-400 {
-  height: 600px;
-}
-
-.w-300 {
-  width: 400px;
-}
-
 .colonne {
   width: calc((100% - 40px) / 3);
   position: relative;
 }
-
 
 .contain {
   object-fit: cover
@@ -154,7 +145,7 @@ i:hover {
 
 .badge {
   position: absolute;
-  bottom: 90px;
+  bottom: 100px;
   left: 0px;
 }
 
@@ -169,4 +160,20 @@ i:hover {
   padding: 5px;
   background-color: green;
   color: white;
+}
+
+.fronte {
+  display: block;
+}
+
+.retro {
+  display: none;
+}
+
+.girare:hover .fronte {
+  display: none;
+}
+
+.girare:hover .retro {
+  display: block;
 }
