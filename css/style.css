@@ -9,6 +9,7 @@
 
 .row {
   flex-wrap: wrap-reverse;
+  gap: 20px;
 }
 
 .c-white {
@@ -71,17 +72,24 @@ a {
 
 /*Main*/
 
+button {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .container-immagini {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .h-400 {
-  height: 578px;
+  height: 600px;
 }
 
 .w-300 {
-  width: 300px;
+  width: 400px;
 }
 
 .colonne {
@@ -100,6 +108,5 @@ a {
   width: 100%;
 }
 
-.gap {
-  gap: 20px;
-}
+
+gap: 20px;
