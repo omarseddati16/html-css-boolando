@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-body {}
 
 /*Utili*/
 
@@ -59,4 +58,11 @@ a {
   width: 25%;
   text-align: end;
 
+}
+
+/*Main*/
+
+.container-immagini {
+  max-width: 1200px;
+  margin: 0 auto;
 }
