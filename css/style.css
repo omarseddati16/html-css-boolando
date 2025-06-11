@@ -7,6 +7,10 @@
 
 /*Utili*/
 
+.row {
+  flex-wrap: wrap-reverse;
+}
+
 .c-white {
   color: white;
 }
@@ -42,6 +46,7 @@ a {
   height: 50px;
   padding: 15px;
   margin: 0 auto;
+
 }
 
 
@@ -65,4 +70,20 @@ a {
 .container-immagini {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.h-400 {
+  height: 600px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.colonne {
+  width: calc(100% / 3);
+}
+
+.border {
+  border: 2px black dotted;
 }
