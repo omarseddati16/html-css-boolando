@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {}
+
+/*Utili*/
+
+.c-white {
+  color: white;
+}
+
+.df {
+  display: flex;
+}
+
+.aline-center {
+  justify-content: space-evenly
+}
+
+.size {
+  height: 130%;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.bg-orange {
+  background-color: rgb(255, 103, 1);
+}
+
+/*Header*/
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  height: 50px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+.gender {
+  width: 25%;
+}
+
+.logo {
+  width: 50%;
+  text-align: center;
+}
+
+.icon {
+  width: 25%;
+  text-align: end;
+
+}
