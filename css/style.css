@@ -7,6 +7,18 @@
 
 /*Utili*/
 
+.a-end {
+  text-align: end;
+}
+
+.m-10 {
+  margin-bottom: 10px;
+}
+
+.a-center {
+  text-align: center;
+}
+
 .bg-color {
   background-color: black;
 }
@@ -71,7 +83,6 @@ a {
 
 .logo {
   width: 50%;
-  text-align: center;
 }
 
 .icon {
